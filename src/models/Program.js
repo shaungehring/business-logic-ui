@@ -5,10 +5,10 @@ import { callApi } from 'Root/utils/callApi'
 import routes from 'Config/routes'
 
 const ProgramDataItem = types.model({
-  id: types.number,
+  id: types.identifierNumber,
   code: types.string,
   creation_time: types.string,
-  environment: types.null,
+  environment: types.number,
   modification_time: types.string,
   program_interface: types.number,
   title: types.string,
