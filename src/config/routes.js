@@ -1,4 +1,4 @@
 export default {
-  API_ROOT: 'http://vzr.dgk.su',
-  API_BACKUP: 'http://django-business-logic.dgk.su',
+  API_ROOT: 'http://localhost:8000',
+  API_BACKUP: 'http://localhost:8000',
 }
